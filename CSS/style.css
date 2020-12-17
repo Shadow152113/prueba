@@ -1,0 +1,151 @@
+/*Fonts familis elegidas:
+font-family: 'Ruda', sans-serif;
+font-family: 'Rufina', serif;
+font-family: 'Saira', sans-serif;
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+/*Header*/
+.header{
+		background-color: #f22222;
+		height: 55px;
+}
+/*Header menu bar*/
+.menu_bar{
+	height: 55px;
+	padding: 10px 14px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu_bar a{
+   font-size: 28px;
+   color: #fff;
+}
+
+/*Header nav*/
+.nav{
+	overflow-y: auto;
+	position: fixed;
+	background-color: #1f1f1f;
+	width: 100%;
+	height: 100%;
+	margin-top: -55px;
+    left: -100%;
+}
+.nav__ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav__ul-li{
+	text-align: center;
+	list-style: none;
+	border-bottom: 1px solid #999;
+		width: 80%;
+	padding:20px 0px 20px 0px;
+}
+.nav__ul-li a{
+
+	font-size: 2rem;
+	text-decoration: none;
+	color: #fff;
+}
+/*Cerrar nav*/
+.x{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	padding: 30px 0 20px 0;
+}
+.fa-times{
+	text-align: center;
+	color: #fff;
+}
+/*Main*/
+/*Main-Imagenes*/
+figure{
+	width: 100%;
+	height: 370px;
+}
+figure img{
+	width: 100%;
+	height: 300px;
+	object-fit: contain;
+}
+
+/*Main-boton*/
+.boton{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.boton-price{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	background-color: #ff3737;
+	height: 49px;
+	width: 181px;
+	border-radius: 4px;
+	padding-right: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.boton-price img{
+	margin-right: 14px;
+	width: 30px;
+	height: 30px;
+}
+/*Main-textos*/
+h1{
+	font-family: 'Rufina', serif;
+	font-size: 2.6rem;
+	padding: 10px 16px 0 16px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 32px;
+}
+
+h2{
+	font-family: 'Ruda', sans-serif;
+	padding: 10px 0 0 20px;
+	font-size: 2.2rem;
+	color:#C51010;
+	font-weight: normal;
+	line-height: 27px;
+}
+
+p{
+	font-weight: normal;
+	line-height: 25px;
+	font-family: 'Saira', sans-serif;
+	font-size: 1.6rem;
+	padding: 10px 25px 0 25px;
+}
+.especificaciones{
+	font-family: 'Ruda', sans-serif;
+	font-weight: normal;
+	font-size: 2rem;
+	color: #333;
+	padding: 4px 12px 12px 12px;
+	line-height: 24px;
+}
+
+/*Aside*/
+
+
+.salto-linea{
+	font-size: 0;
+	display: block;
+}
+

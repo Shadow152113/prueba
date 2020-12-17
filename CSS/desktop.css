@@ -1,3 +1,4 @@
+@media screen and (min-width:768px ){
 body{
 	display: flex;
 	flex-direction: column;
@@ -7,4 +8,6 @@ body{
 }
 main{
 	width: 70%;
+}
+
 }
